@@ -19,3 +19,4 @@ rootProject.name = 'Javaframework'
 
 include 'filesystem'
 include 'network'
+include 'utils'
