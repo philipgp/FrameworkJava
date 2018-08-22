@@ -1,0 +1,13 @@
+archivesBaseName = 'px_framework_network'
+
+repositories {
+   maven {	url "http://dohqdplt21:8081/artifactory/ecom-vrepo"}	
+}
+
+dependencies {
+	compile 'javax:javaee-api:7.0'
+	
+	// https://mvnrepository.com/artifact/junit/junit
+testCompile group: 'junit', name: 'junit', version: '4.9'
+	
+}
